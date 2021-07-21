@@ -1,3 +1,49 @@
+.navbar{
+    padding-top: 10px;
+    display:flex;
+    justify-content:space-between;
+    background-color:blue;
+}
+.right-side{
+    display:flex;
+    align-items:center;
+    padding-left: 50px;
+}
+.logo img{
+    width:40.42px;
+    height: 51px;
+}
+.idea{
+    padding-left: 20px;
+}
+.idea h1{
+    color: white;
+    font-size:30px;
+}
+.menu{
+    display:flex;
+    align-items: center;
+}
+.items{
+    padding-right: 30px;
+}
+.items a{
+    text-decoration:none;
+    color:white;
+    font-weight:400;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.profile img{
+    padding-right: 50px;
+    width: 51px;
+    height: 51px;
+
+}
+/* top players section style */
+section h1{
+    color: blue;
+}
 .players{
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -10,4 +56,5 @@
 .player img{
     width:56px;
     height: 56px;
+    margin-right: 15px;
 }
