@@ -4,6 +4,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
+    margin: 0;
+    padding: 0;
 }
 .container{
     background-color:white;
@@ -22,6 +24,41 @@ hr{
     border: 1px solid #D1D1D1;
     margin-bottom:27px;
 }
+/* navbar style  */
+.navbar{
+    background-color: #562EFF;
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.right-side{
+    display:flex;
+   
+    align-items: center;
+}
+.right-side img{
+    width: 40.42px;
+    height: 51px;
+    margin-right: 16px;
+}
+.idea{
+    font-size:24px;
+    color: 
+    #FFFFFF;
+}
+.anchor a{
+    text-decoration:none;
+    color: #FFFFFF;
+    font-size:16px;
+    margin-right: 36px;
+}
+.left-side{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
 /* top players section style */
 .top-players{
     margin-bottom: 30px;
@@ -81,7 +118,10 @@ hr{
 }
 
 /* latest course style  */
-
+.last-container{
+    height: 400px;
+    margin-bottom: 15px;
+}
 .courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -137,6 +177,12 @@ hr{
 /* media query  */
 /* mobile phone devices */
 @media only screen and (max-width:688px){
+    .navbar{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     .container{
         width: 100%;
     }
@@ -158,6 +204,7 @@ hr{
 
 /* tablet devices */
 @media only screen and (min-width: 689px) and (max-width:992px){
+    
     .container{
         width: 100%;
     }
