@@ -221,4 +221,7 @@ hr{
     .blogs,.courses{
         grid-template-columns: repeat(2,1fr);
     }
+    .last-container{
+        height:100%;
+    }
 }
