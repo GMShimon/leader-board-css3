@@ -200,6 +200,9 @@ hr{
         grid-row-gap: 50px;
         padding-left: 60px;
     }
+    .last-container{
+        height:100%;
+    }
 }
 
 /* tablet devices */
